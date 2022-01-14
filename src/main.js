@@ -38,7 +38,7 @@ router.on({
     "admin/news/add":()=>{
         print(addNewsPage.render())
     },
-    "admin/news/edit/:id":()=>{
+    "admin/news/:id/edit":()=>{
         print(EditNewsPage.render())
     }   
 });
